@@ -13,7 +13,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://aichatbot-frontend2.onrender.com"
+      "https://aichatbot-frontend-seven.vercel.app/"
     ],
     credentials: true,
   })
