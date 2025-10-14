@@ -1,5 +1,5 @@
 # 🤖 AI Chatbot web app
-[https://ai-chatbot-client-ten.vercel.app/](https://ai-chatbot-client-ten.vercel.app/)
+[https://aichatbot-frontend-9zuf99cfh-anshu-mandal.vercel.app/](https://aichatbot-frontend-9zuf99cfh-anshu-mandal.vercel.app/)
 
 A full-stack AI cahtbot web app simillar to chatgpt built with modern technologies, real time interactions and OpenRouter based AI model which can easily be swapped with any other model.
 
@@ -47,9 +47,9 @@ JWT for authentication
 OpenRouter API for AI responses
 
 ## 🚀 Getting started
-For frontend visit [https://github.com/Anuptigga/AI-chatbot-client.git](https://github.com/Anuptigga/AI-chatbot-client.git)
+For frontend visit [https://github.com/Vortex7007/aichatbot_frontend](https://github.com/Vortex7007/aichatbot_frontend)
 ### Clone the repository 
-``` git clone https://github.com/Anuptigga/AI-chatbot-api.git```
+``` git clone https://github.com/Vortex7007/aichatbot_frontend.git```
 ### Install necessary packages
 ```bash
 cd api
