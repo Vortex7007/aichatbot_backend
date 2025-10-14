@@ -11,7 +11,11 @@ import adminRoute from "./routes/admin.js"
 const app=express();
 app.use(
   cors({
-    origin: "*",
+    origin: [
+      "https://aichatbot-frontend-9zuf99cfh-anshu-mandal.vercel.app/",
+      "*",
+      "http://localhost:5173"
+    ],
     credentials: true,
   })
 );
