@@ -1,4 +1,6 @@
 import app from "./app.js"
-app.listen(8000,()=>{
-    console.log("Server running on Port:8000");
-})
+const PORT = process.env.PORT || 8000; // fallback to 8000 if not set
+
+app.listen(PORT, () => {
+  console.log(`Server running on Port: ${PORT}`);
+});
