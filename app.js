@@ -1,4 +1,5 @@
-import "./config/envConfig.js"
+import { configDotenv } from "dotenv";
+configDotenv();
 import express from "express";
 import dbConnect from "./config/dbConfig.js"
 import cors from "cors"
