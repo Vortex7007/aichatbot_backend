@@ -35,7 +35,7 @@ export const queryLLM = async (req, res) => {
       {
         model: "nvidia/nemotron-nano-9b-v2:free",
         messages,
-        max_tokens: 100,
+        max_tokens: 8000,
         temperature: 0.4,
       },
       {
